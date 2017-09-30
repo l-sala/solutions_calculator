@@ -1,20 +1,20 @@
 # solutions_calculator
 
-#############################################################################################
-#
-# 2017-09-24 - Leiden (NL) 
-#
-# Luca Sala, PhD
-#
-# This scripts helps to perform some basic lab operations when preparingis one solutions.
-#
-# Code is simple and it my first attempt with programming and Python :)
-#
-# Hope it might help some BSc or MSc students preparing solutions
-#
-# This script works with Python 3.6
-#
-#############################################################################################
+
+ '''
+ 2017-09-24 - Leiden (NL) 
+
+ Luca Sala, PhD
+
+ This scripts helps to perform some basic lab operations when preparingis one solutions.
+
+ Code is simple and it my first attempt with programming and Python :)
+
+ Hope it might help some BSc or MSc students preparing solutions
+
+ This script works with Python 3.6
+'''
+
 
 Easy to use Python code to avoid errors while preparing chemical solutions.
 
