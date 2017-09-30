@@ -1,4 +1,4 @@
-# solutions_calculator
+# Solutions Calculator
 
  2017-09-24 - Leiden (NL) 
  Luca Sala, PhD
