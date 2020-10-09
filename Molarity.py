@@ -42,7 +42,7 @@ Action  =  input("Do you want to compute the 'weight' (grams of reagent), the 'm
 
 if Action=="weight":
 	Mass_in_solution()
-elif Action=="molarity'":
+elif Action=="molarity":
 	Molarity()
 elif Action=="volume":
 	Volume()
