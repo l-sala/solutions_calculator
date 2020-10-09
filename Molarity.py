@@ -20,22 +20,22 @@ def Mass_in_solution():
 	mw = input("Insert the molecular weight of the reagentin in g/mol \n")
 	vol = input("Insert the volume in L\n")
 	M = input("Insert the molarity in mol/L\n")
-	Result = (mw)*(M)*(vol)
+	Result = float(mw)*float(M)*float(vol)
 	print ("You have to add", (Result), "grams to your solution")
 
 def Molarity():
 	g = input("Insert the grams of reagent\n")
 	mw = input("Insert the molecular weight in g/mol\n")
 	vol = input("Insert the volume in liters\n")
-	Result = (g)/((mw)*(vol))
+	Result = float(g)/(float(mw)*float(vol))
 	print ("Your compound in solution is", (Result), "M")
 
 def Volume():
 	g = input("Insert the grams of reagent\n")
 	mw = input("Insert the molecular weight in g/mol\n")
 	M = input("Insert the molarity in mol/L\n")
-	Result = (g)/(mw*M)
-	print ("Add"+str(Result)+ "liters to obtain a solution with the desidered molarity")
+	Result = float(g)/(float(mw)*float(M))
+	print ("Add "+str(Result)+ " liters to obtain a solution with the desidered molarity")
 
 
 Action  =  input("Do you want to compute the 'weight' (grams of reagent), the 'molarity' or the 'volume' (liters to create a solution with a known molarity)?\n") 
