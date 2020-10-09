@@ -34,8 +34,8 @@ def Volume():
 	g = input("Insert the grams of reagent\n")
 	mw = input("Insert the molecular weight in g/mol\n")
 	M = input("Insert the molarity in mol/L\n")
-	Result = float(g)/(float(mw)*float(M))
-	print ("Add", Result, "liters to obtain a solution with the desidered molarity")
+	Result = float(g)/(mw*M)
+	print ("Add"+str(Result)+ "liters to obtain a solution with the desidered molarity")
 
 
 Action  =  input("Do you want to compute the 'weight' (grams of reagent), the 'molarity' or the 'volume' (liters to create a solution with a known molarity)?\n") 
